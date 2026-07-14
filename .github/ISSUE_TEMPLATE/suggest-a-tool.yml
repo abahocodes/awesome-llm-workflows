@@ -1,0 +1,54 @@
+name: Suggest a tool
+description: Suggest a tool for the list. No git required, we will turn it into an entry for you.
+title: "[Suggestion]: "
+labels: ["tool-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Fill this in and we will add the entry for you, with credit in the commit.
+        Prefer to do it yourself? [Edit the README in your browser](https://github.com/abahocodes/awesome-llm-workflows/edit/main/README.md) and GitHub will open the PR for you.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: e.g. LangChain
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: Repository for open source projects, homepage for hosted products.
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Visual Workflow Builders
+        - Code-First Frameworks
+        - Agent Frameworks
+        - RAG & Retrieval
+        - Observability & Evaluation
+        - Serving & Inference
+        - Learning Resources
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: One-line description
+      description: Factual, no marketing superlatives.
+      placeholder: Vector similarity inside Postgres.
+    validations:
+      required: true
+  - type: checkboxes
+    id: affiliation
+    attributes:
+      label: Affiliation
+      options:
+        - label: I am affiliated with this tool (author, employee, maintainer). Affiliated submissions are welcome, we just ask that you say so.

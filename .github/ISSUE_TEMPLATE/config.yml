@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Edit the README directly (fastest)
+    url: https://github.com/abahocodes/awesome-llm-workflows/edit/main/README.md
+    about: Add your entry in the browser. GitHub forks and opens the pull request for you automatically.
