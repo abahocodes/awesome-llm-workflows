@@ -48,6 +48,7 @@ Maintained by the team behind [LLMGraph](https://llmgraph.ai/?utm_source=github&
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration.
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's framework for multi-agent conversation and collaboration.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - OpenAI's first-party agent orchestration SDK.
+- [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay) - Local-first CLI for exposing bounded local-agent capabilities to teammates and agents over a trusted LAN.
 - [smolagents](https://github.com/huggingface/smolagents) - Hugging Face's minimal agent library with code-execution agents.
 - [Agno](https://github.com/agno-agi/agno) - Lightweight framework for building agents with memory, knowledge, and tools.
 
