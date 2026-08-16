@@ -70,6 +70,7 @@ Maintained by the team behind [LLMGraph](https://llmgraph.ai/?utm_source=github&
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation metrics purpose-built for RAG pipelines.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Unit-testing framework for LLM outputs.
 - [Helicone](https://github.com/Helicone/helicone) - Proxy-based LLM observability and cost tracking.
+- [Agent QA](https://github.com/vostride/agent-qa) - Runs application-level web/mobile regression workflows with persistent test memory and failure evidence; not a model or trajectory evaluator.
 
 ## Serving & Inference
 
