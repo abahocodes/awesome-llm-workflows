@@ -51,6 +51,7 @@ Maintained by the team behind [LLMGraph](https://llmgraph.ai/?utm_source=github&
 - [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay) - Local-first CLI for exposing bounded local-agent capabilities to teammates and agents over a trusted LAN.
 - [smolagents](https://github.com/huggingface/smolagents) - Hugging Face's minimal agent library with code-execution agents.
 - [Agno](https://github.com/agno-agi/agno) - Lightweight framework for building agents with memory, knowledge, and tools.
+- [Tale](https://github.com/tale-project/tale) - Self-hosted workspace for project tasks, shared knowledge, and agent runs with reviewable deliverables.
 
 ## RAG & Retrieval
 
